@@ -328,7 +328,7 @@ dd{
 
 .main_4grid img{
     margin-top: 5rem;
-    
+
     text-align: center;  
 }
 
@@ -467,6 +467,7 @@ ion-icon{
     footer{
         display: flex;
         align-items:center;
+        padding-top: 1.5rem;
     }
     .footer-container{
         width: 90%;
@@ -524,6 +525,15 @@ ion-icon{
         /* background-color: blue; */
     }
 
+}
+
+/* active states */
+.nav_footer ul a:active, ion-icon:active{
+    color: var(--primary-color1);
+}
+
+.btn_footer:active, .btn:active {
+    font-size: larger;
 }
 
 
